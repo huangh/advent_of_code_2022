@@ -63,19 +63,6 @@ def wlt2(them,me):
     if them == 'C' and me == 'Z':
         return 1                         
 
-# # def lose(them,me):
-# #     if them == 'A' and me == 'Z':
-# #         return 0
-# #     if them == 'B' and me == 'X':
-# #         return 0
-# #     if them == 'C' and me == 'Y':
-# #         return 0        
-# #     return 0
-
-# def tie(them,me):
-      
-#     return 0
-
 with open("test_data/input.txt") as file:
     # rstrip gets rid of the new line char
     lines = [line.rstrip() for line in file]
@@ -90,32 +77,3 @@ with open("test_data/input.txt") as file:
         
     #     print("new line")
 print(score)
-
-
-    # if '\n' in lines[7]:
-    #     print("new line"
-# print(lines)
-# print(elves)
-# elves.append(0)
-# # print("aa")
-# # print(elves)
-# for line in lines:
-#     # print(line)
-#     # if 
-#     if line == '':
-#         print('next')
-#         ii = ii+1
-#         elves.append(0)
-#     else:
-#         # print("zero")
-#         elves[ii] = elves[ii] + int(line)
-    
-# #     if line is "\n"
-# print("Elves")
-# print(elves)
-# # print(max(elves))
-# # elves = elves.sort()
-# elves.sort()
-# breakpoint()
-# print(elves)
-
